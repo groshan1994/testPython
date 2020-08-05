@@ -26,7 +26,7 @@ def webhook():
     print("Request:")
     print(json.dumps(req, indent=4))
     x= {
-        "fulfillmentText": speech_response,
+        "fulfillmentText": "TEST",
         "source": "Yahoo Weather"
             }
 
