@@ -9,9 +9,9 @@ handlers:
 libraries:
 - name: flask
   version: 0.12
-- name: future
-   version: 0.16.0
 - name: gunicorn
    version: 19.7.1
 - name: requests
    version: 2.21.0
+- name: future
+   version: 0.16.0
